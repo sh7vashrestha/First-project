@@ -3,5 +3,5 @@ from django.contrib import admin
 from . import views
 
 urlpatterns = [
-    path('travel/', views.index, name='index'),
+    path('', views.index, name='index'),
 ]
